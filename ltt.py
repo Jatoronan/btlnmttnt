@@ -4,7 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Bước 1: Đọc dữ liệu từ file Excel:
-file_excel = "C:\\Users\\pc\\Desktop\\web\\dienthoai.xlsx"
+file_excel = "dienthoai.xlsx"
 df = pd.read_excel('dienthoai.xlsx',header=1)
 
 # Bước 2: Chuẩn bị dữ liệu:
